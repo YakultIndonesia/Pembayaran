@@ -30,14 +30,10 @@ app.post('/callback', async (req, res) => {
     })
   });
 
-  // Simulasikan callback ke web lokal
   console.log("Pembayaran Dikonfirmasi:", refId);
-  // Simpan ke file, database, atau kirim ke front-end jika perlu
-
   res.sendStatus(200);
 });
 
-app.listen(PORT, '192.168.1.7', () => {
-  console.log(`Server aktif di http://192.168.1.7:${PORT}`);
+app.listen(PORT, () => {
+  console.log(`Server aktif di http://localhost:${PORT}`);
 });
-
