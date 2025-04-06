@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #121212, #1f1f1f);
+  color: #fff;
+  text-align: center;
+  padding: 2em;
+}
+
+.container {
+  background: #282828;
+  padding: 2em;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+input[type="file"] {
+  background: #333;
+  padding: 1em;
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: #00c853;
+  border: none;
+  padding: 1em 2em;
+  font-size: 1em;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #00e676;
+}
+
+.hasil-transaksi {
+  margin-top: 20px;
+  font-size: 1.2em;
+  background: #1b1b1b;
+  padding: 1em;
+  border-radius: 8px;
+}
